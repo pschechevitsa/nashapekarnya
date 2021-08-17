@@ -1,0 +1,108 @@
+*{
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+
+/* ///////////////////////////////////////////// */
+
+
+
+/*Логотип*/
+
+
+
+
+/*Корзина*/
+
+
+
+
+.main_jpg{
+box-sizing: border-box;
+height: 100vh;
+background-image: url("img/main.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+min-height: 768px;
+background-position: 50% 0;
+padding-top: 130px;
+}
+
+.main_text{
+  border: 5px solid white;
+  font-family: "Ossem", sans-serif;
+  font-size: 20px;
+  color: white;
+  width: auto;
+  height: auto;
+  padding-left: 10px;
+  margin-top: 100px;
+  margin-bottom: 50%;
+  margin-left: 70px;
+  margin-right: 65%;
+  text-align: left;
+}
+
+.content{
+  width: 100%;
+  margin:0 auto;
+  background-color: white;
+  box-shadow: 5px 0 7px -4px #9E9E9E, -5px 0 7px -4px #9E9E9E;
+  padding-top: 160px;
+  padding-left: 20%;
+  padding-right: 20%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: certa_reg;
+  font-size: 25px;
+
+}
+
+.footer{
+  background-color: red;
+}
+
+  @font-face {
+font-family: "Drina";
+src: url("fonts/Drina.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+
+@font-face {
+font-family: "Ubuntu";
+src: url("fonts/Ubuntu.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+
+@font-face {
+font-family: "certa";
+src: url("fonts/CertaSerif.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+
+@font-face {
+font-family: "certa_reg";
+src: url("fonts/certa_reg.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+
+@font-face {
+font-family: "certa_lig";
+src: url("fonts/Certa Serif Light.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+
+@font-face {
+font-family: "Ossem";
+src: url("fonts/Ossem-Rounded.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
